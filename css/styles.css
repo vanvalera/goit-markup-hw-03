@@ -9,41 +9,89 @@
   --second-footer-color: #2f303a;
   --accent-footer-color: #2196f3;
 }
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0px;
+}
+ul {
+  margin: 0px;
+  padding-left: 0px;
+}
+.list {
+  list-style: none;
+}
 body {
-  font-family: 'Roboto', 'Raleway';
+  font-family: 'Roboto', 'Raleway', sans-serif;
   color: #ffffff;
+  width: 1600px;
+}
+/* ----------Conteiner--------- */
+.conteiner {
+  width: 1200px;
+  padding: 0px 15px;
+  margin: 0 auto;
 }
 /* ----------Header--------- */
+.conteiner.head {
+  display: flex;
+  border-bottom: 1px solid #ececec;
+  align-items: center;
+}
+.nav-header {
+  display: flex;
+  align-items: center;
+}
 .logo {
+  padding-top: 24px;
+  padding-bottom: 25px;
+
+  color: #000000;
   font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #000000;
   text-decoration: none;
 }
 .web {
   color: var(--accent-header-color);
 }
-.list {
-  list-style: none;
+.nav-header .item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.flex {
+  display: flex;
 }
 .header-link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+  color: var(--primary-header-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--primary-header-color);
   text-decoration: none;
 }
+.nav-mail:not(:last-child) {
+  margin-right: 50px;
+}
 .header-tel {
+  color: var(--second-header-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--second-header-color);
   text-decoration: none;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .header-link:hover,
 .header-link:focus,
@@ -53,10 +101,6 @@ body {
 }
 /* ---------Body---------- */
 .hero {
-  width: 1600px;
-  height: 600px;
-  left: 0px;
-  top: 80px;
   background: #2f303a;
 }
 .hero-tittle {
@@ -148,10 +192,6 @@ body {
 }
 /* --------footer---------- */
 .basement {
-  width: 1600px;
-  height: 252px;
-  left: 0px;
-  top: 2094px;
   background: var(--second-footer-color);
 }
 .logo-footer {
