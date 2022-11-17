@@ -28,6 +28,10 @@ ul {
 .flex {
   display: flex;
 }
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 body {
   font-family: 'Roboto', 'Raleway', sans-serif;
   color: #ffffff;
@@ -109,11 +113,10 @@ body {
   background: #2f303a;
 }
 .hero-tittle {
-  padding-top: 200px;
-  padding-left: 452px;
+  padding-top: 106px;
   padding-right: 452px;
-  padding-bottom: 30px;
-
+  padding-left: 452px;
+  margin-bottom: 30px;
   color: var(--primary-body-color);
   font-weight: 900;
   font-size: 44px;
@@ -123,12 +126,13 @@ body {
   text-transform: uppercase;
 }
 .hero-button {
-  margin-bottom: 200px;
+  margin-bottom: 106px;
+  margin-right: 700px;
+  margin-left: 700px;
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--second-body-color);
