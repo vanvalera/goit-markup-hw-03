@@ -277,6 +277,7 @@ margin-right: 30px;
 }
 /* ---------Body Portfolio---------- */
 .portfolio-btn {
+  padding: 6px 22px;
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -285,11 +286,10 @@ margin-right: 30px;
   letter-spacing: 0.03em;
   color: var(--second-body-color);
   height: 38px;
-  left: 548px;
-  top: 174px;
   background: #f5f4fa;
   border-radius: 4px;
   cursor: pointer;
+  border: 0px;
 }
 .portfolio-btn:hover,
 .portfolio-btn:focus {
@@ -298,6 +298,7 @@ margin-right: 30px;
 }
 .portfolio-tittle {
   padding-top: 20px;
+  padding-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -312,6 +313,7 @@ margin-right: 30px;
   color: #757575;
 }
 .list-buttons{
+  margin-left: 312px;
   margin-bottom: 50px;
 }
 .cards {
@@ -321,15 +323,22 @@ margin-right: 30px;
   width: 370px;
   background-color: var(--primary-body-color);
   margin-right: 30px;
-  margin-bottom: 30px;
-  border: 1px solid #EEEEEE;
+  padding-bottom: 30px;
 }
 .cards li:nth-child(3n){
   margin-right: 0px;
 }
-.cards li:nth-child(n-3) {
-  margin-bottom: 0px;
+.cards-img.pading{
+  padding-bottom: 0px;
 }
-.cards img{
+.cards-img img{
   display: block;
+}
+.cards-border{
+border-right:1px solid #EEEEEE;
+border-bottom: 1px solid #EEEEEE;
+border-left: 1px solid #EEEEEE;
+}
+.list-portfolio-btn:not(:last-child){
+  margin-right: 8px;
 }
