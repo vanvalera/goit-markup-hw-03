@@ -36,6 +36,7 @@ body {
   font-family: 'Roboto', 'Raleway', sans-serif;
   color: #ffffff;
   width: 1600px;
+  margin: 0 auto;
 }
 /* ----------Conteiner--------- */
 .conteiner {
