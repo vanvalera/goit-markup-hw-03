@@ -25,6 +25,9 @@ ul {
 .list {
   list-style: none;
 }
+.flex {
+  display: flex;
+}
 body {
   font-family: 'Roboto', 'Raleway', sans-serif;
   color: #ffffff;
@@ -49,6 +52,7 @@ body {
 .logo {
   padding-top: 24px;
   padding-bottom: 25px;
+  margin-right: 93px;
 
   color: #000000;
   font-family: 'Raleway';
@@ -65,9 +69,6 @@ body {
   margin-right: 50px;
 }
 
-.flex {
-  display: flex;
-}
 .header-link {
   display: block;
   padding-top: 32px;
@@ -79,6 +80,9 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+}
+.list.flex {
+  margin-left: auto;
 }
 .nav-mail:not(:last-child) {
   margin-right: 50px;
@@ -99,20 +103,27 @@ body {
 .header-tel:hover {
   color: var(--accent-header-color);
 }
+
 /* ---------Body---------- */
 .hero {
   background: #2f303a;
 }
 .hero-tittle {
+  padding-top: 200px;
+  padding-left: 452px;
+  padding-right: 452px;
+  padding-bottom: 30px;
+
+  color: var(--primary-body-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--primary-body-color);
 }
 .hero-button {
+  margin-bottom: 200px;
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -121,10 +132,8 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--second-body-color);
-  width: 216px;
+  width: 200px;
   height: 50px;
-  left: 692px;
-  top: 430px;
   cursor: pointer;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
