@@ -35,12 +35,11 @@ ul {
 body {
   font-family: 'Roboto', 'Raleway', sans-serif;
   color: #ffffff;
-  width: 1600px;
   margin: 0 auto;
 }
 /* ----------Conteiner--------- */
 .conteiner {
-  width: 1200px;
+  max-width: 1200px;
   padding: 0px 15px;
   margin: 0 auto;
 }
@@ -116,11 +115,9 @@ body {
 /* ---------Body---------- */
 .hero {
   background: #2f303a;
+  padding: 200px 0;
 }
 .hero-tittle {
-  padding-top: 200px;
-  padding-right: 452px;
-  padding-left: 452px;
   margin-bottom: 30px;
   color: var(--primary-body-color);
   font-weight: 900;
@@ -130,10 +127,10 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
+.hero .conteiner.flex{
+  justify-content: center;
+}
 .hero-button {
-  margin-bottom: 200px;
-  margin-right: 700px;
-  margin-left: 700px;
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -299,6 +296,7 @@ body {
   color: var(--primary-body-color);
 }
 .portfolio-tittle {
+  padding-left: 20px;
   padding-top: 20px;
   padding-bottom: 4px;
   font-weight: 700;
@@ -308,6 +306,7 @@ body {
   color: var(--second-body-color);
 }
 .portfolio-text {
+  padding-left: 20px;
   padding-bottom: 20px;
   font-size: 16px;
   line-height: 1.88;
